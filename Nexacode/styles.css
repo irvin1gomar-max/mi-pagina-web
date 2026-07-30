@@ -1,0 +1,214 @@
+/* Estilos generales */
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: #f9f9f9;
+}
+
+/* Encabezado */
+header { 
+    background: rgba(40, 167, 69, 0.9); 
+    color: white; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-container img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+/* Navegación */
+nav a { 
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+nav a:hover { 
+    text-decoration: underline; 
+}
+
+/* Barra de búsqueda en header */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.search-bar button {
+    margin-left: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Carrusel superior */
+.carousel {
+    width: 100%;
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    border-bottom: 3px solid #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.carousel img {
+    height: 180px;
+    border-radius: 10px;
+}
+.carousel-text {
+    text-align: right;
+}
+.carousel-text h1 {
+    color: #28a745;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container { 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.95); 
+    border-radius: 10px; 
+    margin-top: 20px;
+}
+
+/* Sección de bienvenida */
+.welcome { 
+    text-align: center; 
+    margin: 30px 0; 
+}
+.welcome h2 { 
+    color: #28a745; 
+}
+
+/* Botones principales */
+.buttons { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.buttons button { 
+    padding: 12px 25px; 
+    background: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+.buttons button:hover { 
+    background: #1e7e34; 
+}
+
+/* Características secundarias */
+.features { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin: 30px 0; 
+}
+.feature-box { 
+    background: #e6ffe6; 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    border: 1px solid #28a745; 
+    color: #1e7e34; 
+    font-weight: bold; 
+    cursor: pointer; 
+}
+.feature-box:hover { 
+    background: #d4f5d4; 
+}
+
+/* Tabla */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    background: #fff;
+}
+th, td { 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+}
+th { 
+    background: #28a745; 
+    color: white; 
+}
+
+/* Sidebar búsqueda rápida */
+.sidebar {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    float: right;
+}
+.sidebar h3 {
+    margin-top: 0;
+    color: #28a745;
+}
+.sidebar input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.sidebar button {
+    width: 100%;
+    padding: 8px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sidebar button:hover {
+    background: #1e7e34;
+}
+
+/* Pie de página */
+footer { 
+    background: #28a745; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 30px; 
+}
+footer a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+footer a:hover { 
+    text-decoration: underline; 
+}
